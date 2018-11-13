@@ -1,0 +1,103 @@
+.team {
+    background: #ffffff;
+    padding-bottom: 100px;
+}
+
+.team-gallery {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.poster,
+.poster2,
+.poster3,
+.poster4,
+.poster5 {
+    position: relative;
+    height: 440px;
+    width: 368px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+}
+
+.poster {
+    background-image: url(../img/m1.jpg);
+}
+
+.poster2 {
+    background-image: url(../img/m2.jpg);
+}
+
+.poster3 {
+    background-image: url(../img/m3.jpg);
+}
+
+.poster4 {
+    background-image: url(../img/m4.jpg);
+}
+
+.poster5 {
+    background-image: url(../img/m5.jpg);
+}
+
+.poster:hover .info-poster,
+.poster2:hover .info-poster,
+.poster3:hover .info-poster,
+.poster4:hover .info-poster,
+.poster5:hover .info-poster {
+    display: block;
+    position: absolute;
+    top: 120px;
+    z-index: 9999;
+    width: 335px;
+}
+
+.info-poster,
+.info-poster-block {
+
+    margin-left: 16px;
+    margin-top: 65px;
+    background: #6ff6eb;
+    height: 242px;
+    -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 45px 20px 0px;
+}
+
+.info-poster,
+.info-poster-block {
+    display: none;
+}
+
+.info-poster-block {
+    margin-left: 0px;
+    margin-top: 200px;
+    background: #6ff6eb;
+    height: 242px;
+    /* -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3); */
+    padding: 45px 20px 0px;
+    box-shadow: none;
+}
+
+
+.prof-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.prof-descr {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.soc-info a {
+    margin-right: 10px;
+    color: #4a4a4a;
+}

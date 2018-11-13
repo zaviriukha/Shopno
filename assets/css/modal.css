@@ -1,0 +1,56 @@
+.modal-content {
+    width: 550px;
+    background-color: #fff;
+    padding: 20px 30px;
+}
+
+.modal-content h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input[type=text] {
+    width: 100%;
+    padding-top: 30px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #616e77;
+    font-size: 16px;
+}
+
+input[type=text]:focus {
+    border-bottom: 1px solid #6eeee4;
+}
+
+#textarea {
+    background: transparent;
+    border: 0;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-bottom: 1px solid #616e77;
+    outline: 0;
+    border-radius: 0;
+    padding-top: 30px;
+    width: 100%;
+    min-height: 105px;
+    font-size: 16px;
+}
+
+#textarea:focus {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #6eeee4;
+    outline: 0;
+    border-radius: 0;
+}
+
+.contact-message::placeholder,
+.contact-fname::placeholder,
+.contact-lname::placeholder {
+    color: #000;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    font-size: 15px;
+}

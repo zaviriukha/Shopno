@@ -1,0 +1,14 @@
+.FEATURED {
+    background: #fff;
+}
+
+.gallery {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.gallery a {
+    padding-bottom: 25px;
+}

@@ -1,0 +1,57 @@
+.logocem {
+    color: #ffffff;
+    padding: 100px 0px;
+}
+
+.logocem ul {
+    color: #000;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.logocem ul li {
+    list-style: none;
+    width: 200px;
+    height: 85px;
+}
+
+.clients_logo {
+    height: 100%;
+    display: block;
+    opacity: 0.5;
+}
+
+.infinity {
+    background: url('../img/infinity_c.png') 50% 50% no-repeat;
+}
+
+.audio {
+    background: url('../img/audio_c.png') 50% 50% no-repeat;
+}
+
+.rko {
+    background: url('../img/rko_c.png') 50% 50% no-repeat;
+}
+
+.sport {
+    background: url('../img/sport_c.png') 50% 50% no-repeat;
+}
+
+.swan {
+    background: url('../img/swan_c.png') 50% 50% no-repeat;
+}
+
+.swanser {
+    background: url('../img/swanser_c.png') 50% 50% no-repeat;
+}
+
+.clients_logo.swanser:hover,
+.clients_logo.swan:hover,
+.clients_logo.sport:hover,
+.clients_logo.rko:hover,
+.clients_logo.audio:hover,
+.clients_logo.infinity:hover {
+    opacity: 1;
+}

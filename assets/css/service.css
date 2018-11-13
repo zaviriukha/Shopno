@@ -1,0 +1,158 @@
+.service {
+    background: #f9fbfb;
+}
+
+.blocks {
+    padding-bottom: 100px;
+}
+
+.first-line,
+.second-line,
+.third-line {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.block-1,
+.block-2,
+.block-3,
+.block-4,
+.block-5,
+.block-6 {
+    position: relative;
+    margin-bottom: 20px;
+    height: 370px;
+}
+
+.block-1,
+.block-3,
+.block-6 {
+    background-repeat: no-repeat;
+    width: 650px;
+}
+
+.block-2,
+.block-4,
+.block-5 {
+    background-repeat: no-repeat;
+    width: 474px;
+}
+
+.block-1 {
+    background-image: url(../img/block3.jpg);
+}
+
+.block-2 {
+    background-image: url(../img/block4.jpg);
+}
+
+.block-3 {
+    background-image: url(../img/block.jpg);
+}
+
+.block-4 {
+    background-image: url(../img/block2.jpg);
+}
+
+.block-5 {
+    background-image: url(../img/block5.jpg);
+}
+
+.block-6 {
+    background-image: url(../img/block6.jpg);
+}
+
+.in-block {
+    padding: 160px 70px 0px 30px;
+}
+
+.in-block h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.in-block p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.more,
+.more2,
+.more3,
+.more4,
+.more5,
+.more6 {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    padding: 0px;
+    margin-top: 65px;
+    position: absolute;
+    bottom: 45px;
+}
+
+.close,
+.close2,
+.close3,
+.close4,
+.close5,
+.close6 {
+    font-size: 26px;
+    color: #44948d;
+    line-height: 1;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.popup,
+.popup2,
+.popup3,
+.popup4,
+.popup5,
+.popup6 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #71f6eb;
+}
+
+.popup7 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+.in-popup {
+    padding: 50px 30px;
+}
+
+.in-popup>h3 {
+    color: #1d4a47;
+}
+
+.in-popup>p {
+    color: #000;
+}
+
+.js-visible {
+    display: block;
+}
